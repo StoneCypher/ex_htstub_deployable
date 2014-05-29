@@ -22,3 +22,13 @@
 site(_) ->
 
     "<!doctype html><html><head><style type=\"text/css\">* { font-family: helvetica neue, sans-serif; }</style></head><body><p>Hello, world!</p></body></html>".
+
+
+
+
+
+%% @doc Minimalist startup routine.  No shutdown routine, lol.
+
+start() ->
+
+    htstub:serve( fun ex_htstub_deployable:site/1 ).
