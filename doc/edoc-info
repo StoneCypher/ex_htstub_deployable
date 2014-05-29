@@ -1,0 +1,4 @@
+%% encoding: UTF-8
+{application,ex_htstub_deployable}.
+{packages,[]}.
+{modules,[ex_htstub_deployable]}.
