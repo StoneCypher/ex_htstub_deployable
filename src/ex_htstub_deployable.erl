@@ -7,7 +7,9 @@
 
 -export([
 
-    site/0
+    site/1,
+
+    start/0
 
 ]).
 
@@ -17,4 +19,6 @@
 
 %% @doc Generate site contents.
 
-site() -> todo.
+site(_) ->
+
+    "<!doctype html><html><head><style type=\"text/css\">* { font-family: helvetica neue, sans-serif; }</style></head><body><p>Hello, world!</p></body></html>".
