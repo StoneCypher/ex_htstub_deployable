@@ -27,8 +27,8 @@ site(_) ->
 
 
 
-%% @doc Minimalist startup routine.  No shutdown routine, lol.
+%% @doc Minimalist startup routine on port 8812.  No shutdown routine, lol.
 
 start() ->
 
-    htstub:serve( fun ex_htstub_deployable:site/1 ).
+    htstub:serve( fun ex_htstub_deployable:site/1, 8812 ).
