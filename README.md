@@ -1,7 +1,9 @@
-base_project
-============
+ex_htstub_deployable
+====================
 
 This is an example of an `htstub` deployable project.  It is kept as simple as possible.
+
+Compile using the rebar command below, then start(), and you should have a hello world http server running on port 8812.
 
 
 
